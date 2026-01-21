@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Assistant</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div id="sidepanel" class="sidepanel">
+    <div class="header">
+      <h2>🧠 Research Assistant</h2>
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+      <div class="bot-msg">👋 Hi! Paste text and I’ll summarize or suggest insights.</div>
+    </div>
+
+    <div class="input-section">
+      <select id="operation">
+        <option value="summarize">Summarize</option>
+        <option value="suggest">Suggest Insights</option>
+      </select>
+
+      <textarea id="userInput" placeholder="Enter your text here..."></textarea>
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
